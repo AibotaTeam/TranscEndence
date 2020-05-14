@@ -26,9 +26,9 @@ public class TranscEndenceCommand implements CommandExecutor {
 
     public void sendHelp(CommandSender sender) {
         sender.sendMessage("");
-        sender.sendMessage(ChatColors.color("&aTranscEndence &2v" + TranscEndence.getVersion()));
+        sender.sendMessage(ChatColors.color("&a进阶模组 &2v" + TranscEndence.getVersion()));
 
-        sender.sendMessage(ChatColors.color("&3/te guide &b") + "Gives a TranscEndence Guide");
+        sender.sendMessage(ChatColors.color("&3/te guide &b") + "获取一个进阶模组指南");
     }
 
 }

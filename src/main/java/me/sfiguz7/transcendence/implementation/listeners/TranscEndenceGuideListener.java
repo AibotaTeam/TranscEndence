@@ -37,29 +37,24 @@ public class TranscEndenceGuideListener implements Listener {
         meta.setTitle("TranscEndence Guide");
         meta.setAuthor("Sfiguz7");
         //Page 3 has an extra space after "Polarizer" otherwise "in" gets cut
-        pages.add(ChatColors.color("Hello! This is a quick guide on how TranscEndence works.\n\n" +
-                "&aQuirps &rare the main resource and can only be obtained by using a &9Quirp Oscillator " +
-                "&r(which only works in the end!)."));
-        pages.add(ChatColors.color("You'll get 4 different quirps based on their &9spin: &rup, down, left, " +
-                "right.\n\n" +
-                "You can force the Quirps Oscillator to spawn more Quirps of vertical or horizontal spin" +
-                " by using the respective &dPolarizer  &rin the purple slot."));
-        pages.add(ChatColors.color("&4Unstable ingots &rare the basic material to craft all end game items:" +
-                " be careful, they will &ckill &ryou and disappear if you hold them for more than a few instants.\n\n" +
-                "It is recommended you use cargo to move them instead."));
-        pages.add(ChatColors.color("&aZots &rcan only be filled using a Zot Overloader, where Quirps are" +
-                " consumed to charge the Zots.\n\n" +
-                "The ratio is 1:1 for quirps with the same spin as the zot, 16:1 if they have different spin."));
-        pages.add(ChatColors.color("&aDaxis &rare the end goal of this journey: each type will give you a" +
-                " different potion effect which will last until you die.\n" +
-                "These are respectively:\n" +
-                "(S) - Strength 3\n" +
-                "(A) - Absorption 5\n" +
-                "(F) - Resistance 4\n" +
-                "(H) - Saturation\n" +
-                "(R) - Regeneration 2\n" +
-                "On death you drop 8 Stable Blocks for each effect you had meaning you only need 1 extra nether star" +
-                " each to craft the Daxi once again"));
+        pages.add(ChatColors.color("你好！ 这是进阶模组的快速指南。\n\n" +
+                "&a孤立元素 &r是主要的材料，只能通过&9振荡器&a获得 " +
+                "&r(只能在末地里才能工作!)."));
+        pages.add(ChatColors.color("你将得到四种不同的孤立元素，取决于&9旋转方向 : &r上, 下, 左, " +
+                "右.\n\n" +
+                "你可以强制振荡器产生更多垂直或水平旋转的孤立元素" +
+                "通过使用相对应的 &d偏光片  &r在紫色的空格内."));
+        pages.add(ChatColors.color("&4不稳定的锭 &r是基本的材料以获取终极物品:" +
+                "注意, 他们将会&c杀死 &r你并且消失如果你将它拿在手中并持续几秒钟.\n\n" +
+                "非常建议你使用货运通道来移动他们."));
+        pages.add(ChatColors.color("&a左特 &r只能被&a左特过载器&r充能, 孤立元素" +
+                "将会被消耗以充能左特.\n\n" +
+                "如果左特的方向与孤立元素的方向一致，则充能比例为 1:1 , 如果不同，则为 16:1."));
+        pages.add(ChatColors.color("&a终极元素 &r是最终的终极产物: 每一种元素" +
+                "都会给你不同的效果一直持续到你死亡.\n" +
+                "你可以根据名字来判断他们的效果\n" +
+                "死亡时，你每获得一种效果将掉落8个稳定方块，也就是说你仅需要一颗额外的下界之星" +
+                "即可再次制造终极元素"));
         meta.setPages(pages);
         book.setItemMeta(meta);
         return book;

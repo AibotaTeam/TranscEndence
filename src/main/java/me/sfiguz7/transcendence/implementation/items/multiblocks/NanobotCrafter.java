@@ -116,7 +116,7 @@ public class NanobotCrafter extends me.mrCookieSlime.Slimefun.Objects.SlimefunIt
     }
 
     protected Inventory createVirtualInventory(Inventory inv) {
-        Inventory fakeInv = Bukkit.createInventory(null, 9, "Fake Inventory");
+        Inventory fakeInv = Bukkit.createInventory(null, 9, "虚拟背包");
 
         for (int j = 0; j < inv.getContents().length; j++) {
             ItemStack stack = inv.getContents()[j] != null && inv.getContents()[j].getAmount() > 1 ? new CustomItem(inv.getContents()[j], inv.getContents()[j].getAmount() - 1) : null;

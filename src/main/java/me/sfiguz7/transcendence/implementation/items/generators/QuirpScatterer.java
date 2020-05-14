@@ -34,7 +34,7 @@ public class QuirpScatterer extends AGenerator {
 
     @Override
     public String getInventoryTitle() {
-        return "&cQuirp Scatterer";
+        return "&c孤立元素散射器";
     }
 
     @Override

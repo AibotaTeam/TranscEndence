@@ -34,7 +34,7 @@ public class QuirpAnnihilator extends AContainer implements RecipeDisplayItem {
 
     @Override
     public String getInventoryTitle() {
-        return "&cQuirp Annihilator";
+        return "&c孤立元素歼灭者";
     }
 
     @Override

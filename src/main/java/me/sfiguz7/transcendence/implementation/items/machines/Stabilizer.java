@@ -37,7 +37,7 @@ public class Stabilizer extends AContainer implements RecipeDisplayItem {
 
     @Override
     public String getInventoryTitle() {
-        return "&cStabilizer";
+        return "&c稳定器";
     }
 
     @Override

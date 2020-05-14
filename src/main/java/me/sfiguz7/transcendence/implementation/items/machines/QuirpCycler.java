@@ -37,7 +37,7 @@ public class QuirpCycler extends AContainer implements RecipeDisplayItem {
 
     @Override
     public String getInventoryTitle() {
-        return "&cQuirp Cycler";
+        return "&c孤立元素旋转器";
     }
 
     @Override
